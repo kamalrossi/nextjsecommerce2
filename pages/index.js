@@ -26,8 +26,8 @@ const Home = ({ products }) => {
     }, [])
     let brandDetails = [
         {
-            img: 'https://res.cloudinary.com/shimul/image/upload/v1614761599/logo-footer-main-1-1_l8ypig.png',
-            title: 'Nike'
+            img: './ga.png',
+            title: 'George Armani'
         },
         {
             img: 'https://res.cloudinary.com/shimul/image/upload/v1617824749/2xB1zxf81-download.jpg',

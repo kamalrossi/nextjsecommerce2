@@ -4,7 +4,7 @@ const Offcanvas = () => {
     return (
         <div className='offcanvas show'>
             <div className="offcanvas-body">
-                <p>Allah is Almighty</p>
+                <p>WallMall</p>
             </div>
         </div>
     )

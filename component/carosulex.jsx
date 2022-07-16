@@ -27,7 +27,7 @@ const Carosulex = () => {
     <Carousel arrows={false} showDots={true} dotListClass="custom-dot-list-style" responsive={responsive}>
 
       <div>
-        <img className='carousel-img' style={{ objectFit: 'cover' }} src="https://df17fp68uwcso.cloudfront.net/eyJidWNrZXQiOiJtZWRpYS5ldmFseS5jb20uYmQiLCJrZXkiOiJtZWRpYS9pbWFnZXMvNmQ0ZWIzNjYwNzRkLTEzMTU5NjYzMF80MTUxOTcxMDUxNTIzMzI0XzY4MzcxMDQ4NTQ5NzQxMjMyNDlfbi5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMzUwLCJoZWlnaHQiOiJhdXRvIiwiZml0IjoiY29udGFpbiJ9LCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfSwiZmxhdHRlbiI6dHJ1ZSwianBlZyI6eyJxdWFsaXR5IjoxMDB9fX0=" alt="" />
+        <img className='carousel-img' style={{ objectFit: 'cover' }} src="https://cache.mrporter.com/content/images/cms/ycm/resource/blob/782330/62f16fd09ca78560e9f636b16f07c348/2dace265-d464-418f-a56f-4654a4532738-data.jpg/w1500_q80.jpg" alt="" />
       </div>
 
       <div>

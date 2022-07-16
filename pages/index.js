@@ -26,7 +26,7 @@ const Home = ({ products }) => {
     }, [])
     let brandDetails = [
         {
-       ""     img: "/ga.png",
+            img: "/ga.png",
             title: 'George Armani'
         },
         {

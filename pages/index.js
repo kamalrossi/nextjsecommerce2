@@ -27,45 +27,35 @@ const Home = ({ products }) => {
     let brandDetails = [
         {
             img: 'https://res.cloudinary.com/shimul/image/upload/v1614761599/logo-footer-main-1-1_l8ypig.png',
-            title: 'Easy Fashion'
+            title: 'Nike'
         },
         {
             img: 'https://res.cloudinary.com/shimul/image/upload/v1617824749/2xB1zxf81-download.jpg',
-            title: 'Xiaomi'
+            title: 'Gucci'
         },
         {
             img: 'https://res.cloudinary.com/shimul/image/upload/v1620947763/b8gisgu1o-download.jpg',
-            title: 'Samsung'
+            title: 'H&M'
         },
         {
             img: 'https://res.cloudinary.com/sium/image/upload/v1622573290/hero_dd9pzd.png',
-            title: 'Hero'
+            title: 'Asos'
         },
         {
             img: 'https://res.cloudinary.com/sium/image/upload/v1622573467/realme_hatsni.jpg',
-            title: 'Realme'
+            title: 'Beker'
         },
-        {
-            img: 'https://res.cloudinary.com/sium/image/upload/v1622575673/applexdex_armmqw.png',
-            title: 'Apple'
-        },
-        {
-            img: 'https://res.cloudinary.com/sium/image/upload/v1622575512/waltonx_bnsrkg.png',
-            title: 'Walton'
-        }
+        
     ]
     return (
         <>
             <Navbar3 />
             <Section product={brandDetails.slice(0, 5)} title='Shop by brands' />
             <Section product={products} link='all' title='Latest Products' />
-            <Section product={products.filter(sig => sig.category == 'desktop')} link='desktop' title='Desktop' />
-            <Section product={products.filter(sig => sig.category == 'ac')} link='ac' title='Smart Ac' />
-            <Section product={products.filter(sig => sig.category == 'smart phone')} link='smart phone' title='Smart Phone' />
-            <Section product={products.filter(sig => sig.category == 'watch')} link='watch' title='Watch' />
-            <Section product={products.filter(sig => sig.category == 'motor bike')} link='motor bike' title='Motor Bike' />
-            <Section product={products.filter(sig => sig.category == 'tv')} link='tv' title='Smart Tv' />
-            <p style={{ fontSize: '4rem', fontWeight: '700' }}>Allah is Almighty</p>
+            <Section product={products.filter(sig => sig.category == 'men')} link='men' title='men' />
+            <Section product={products.filter(sig => sig.category == 'women')} link='women' title='women' />
+            <Section product={products.filter(sig => sig.category == 'kid')} link='kid' title='kid' />
+            <p style={{ fontSize: '4rem', fontWeight: '700' }}>WallMall</p>
         </>
     )
 }

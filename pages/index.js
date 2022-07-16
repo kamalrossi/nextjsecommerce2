@@ -26,19 +26,19 @@ const Home = ({ products }) => {
     }, [])
     let brandDetails = [
         {
-            img: 'ga.pnng',
+            img: '/ga.pnng',
             title: 'George Armani'
         },
         {
-            img: 'ga.pnng',
+            img: '/ga.pnng',
             title: 'Gucci'
         },
         {
-            img: 'ga.pnng',
+            img: '/ga.pnng',
             title: 'H&M'
         },
         {
-            img: 'ga.pnng',
+            img: '/ga.pnng',
             title: 'Uniqlo'
         },
  

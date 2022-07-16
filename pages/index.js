@@ -47,8 +47,8 @@ const Home = ({ products }) => {
     return (
         <>
             <Navbar3 />
-            <Section product={brandDetails.slice(0, 5)} title='Top Brands' />
-            <Section product={products} link='all' title='Hot Products' />
+            <Section product={brandDetails.slice(0, 5)} title='Famous Brand' />
+           
             <Section product={products.filter(sig => sig.category == 'men')} link='men' title='men' />
             <Section product={products.filter(sig => sig.category == 'women')} link='women' title='women' />
             <Section product={products.filter(sig => sig.category == 'kid')} link='kid' title='kid' />

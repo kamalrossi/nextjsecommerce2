@@ -9,23 +9,18 @@ const Navbar2 = ({ handleCategory }) => {
             </div>
             <Link href="/search">
                 <div className='navbar2-all'>
-                    <p>All products</p>
+                    <p>Men</p>
                 </div>
             </Link>
             <div className="navbar2-help">
-                <p>Help</p>
+                <p>Women</p>
             </div>
 
             <div className="navbar2-contact">
-                <p>Contact</p>
+                <p>Kid</p>
             </div>
 
-            <Link href='/credit'>
-                <div className="navbar2-contact">
-                    <p>Credit</p>
-                </div>
-            </Link>
-        </div>
+                    </div>
     )
 }
 

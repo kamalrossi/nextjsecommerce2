@@ -46,7 +46,7 @@ const Home = ({ products }) => {
             title: 'SL'
         },
         {
-            img: "/lv.png,
+            img: "/lv.png",
             title: 'LV'
         },
         

@@ -42,12 +42,12 @@ const Home = ({ products }) => {
             title: 'Uniqlo'
         },
         {
-            img: 'sn.png',
+            img: 'sl.png',
             title: 'SL'
         },
         {
-            img: 'vn.png',
-            title: 'VN'
+            img: 'lv.png',
+            title: 'LV'
         },
         
     ]

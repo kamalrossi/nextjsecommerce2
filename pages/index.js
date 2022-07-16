@@ -26,19 +26,19 @@ const Home = ({ products }) => {
     }, [])
     let brandDetails = [
         {
-            img: 'https://logos-world.net/wp-content/uploads/2020/11/Giorgio-Armani-Logo.png',
+            img: 'ga.pnng',
             title: 'George Armani'
         },
         {
-            img: 'https://pngimg.com/uploads/gucci/gucci_PNG4.png',
+            img: 'ga.pnng',
             title: 'Gucci'
         },
         {
-            img: 'https://logos-world.net/wp-content/uploads/2020/04/HM-Logo-700x394.png',
+            img: 'ga.pnng',
             title: 'H&M'
         },
         {
-            img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/UNIQLO_logo.svg/800px-UNIQLO_logo.svg.png',
+            img: 'ga.pnng',
             title: 'Uniqlo'
         },
  

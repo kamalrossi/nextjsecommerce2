@@ -26,24 +26,28 @@ const Home = ({ products }) => {
     }, [])
     let brandDetails = [
         {
-            img: './ga.png',
+            img: '.ga.png',
             title: 'George Armani'
         },
         {
-            img: 'https://res.cloudinary.com/shimul/image/upload/v1617824749/2xB1zxf81-download.jpg',
+            img: 'gucci.png',
             title: 'Gucci'
         },
         {
-            img: 'https://res.cloudinary.com/shimul/image/upload/v1620947763/b8gisgu1o-download.jpg',
+            img: 'hm.png',
             title: 'H&M'
         },
         {
-            img: 'https://res.cloudinary.com/sium/image/upload/v1622573290/hero_dd9pzd.png',
-            title: 'Asos'
+            img: 'uniqlo.png',
+            title: 'Uniqlo'
         },
         {
-            img: 'https://res.cloudinary.com/sium/image/upload/v1622573467/realme_hatsni.jpg',
-            title: 'Beker'
+            img: 'sn.png',
+            title: 'SL'
+        },
+        {
+            img: 'vn.png',
+            title: 'VN'
         },
         
     ]

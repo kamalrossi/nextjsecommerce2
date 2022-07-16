@@ -26,36 +26,29 @@ const Home = ({ products }) => {
     }, [])
     let brandDetails = [
         {
-            img: "/ga.png",
+            img: 'https://logos-world.net/wp-content/uploads/2020/11/Giorgio-Armani-Logo.png',
             title: 'George Armani'
         },
         {
-            img: "/gucci.png",
+            img: 'https://pngimg.com/uploads/gucci/gucci_PNG4.png',
             title: 'Gucci'
         },
         {
-            img: "/hm.png",
+            img: 'https://logos-world.net/wp-content/uploads/2020/04/HM-Logo-700x394.png',
             title: 'H&M'
         },
         {
-            img: "/uniqlo.png",
+            img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/UNIQLO_logo.svg/800px-UNIQLO_logo.svg.png',
             title: 'Uniqlo'
         },
-        {
-            img: "/sl.png",
-            title: 'SL'
-        },
-        {
-            img: "/lv.png",
-            title: 'LV'
-        },
+ 
         
     ]
     return (
         <>
             <Navbar3 />
-            <Section product={brandDetails.slice(0, 5)} title='Shop by brands' />
-            <Section product={products} link='all' title='Latest Products' />
+            <Section product={brandDetails.slice(0, 5)} title='Top Brands' />
+            <Section product={products} link='all' title='Hot Products' />
             <Section product={products.filter(sig => sig.category == 'men')} link='men' title='men' />
             <Section product={products.filter(sig => sig.category == 'women')} link='women' title='women' />
             <Section product={products.filter(sig => sig.category == 'kid')} link='kid' title='kid' />

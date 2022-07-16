@@ -65,7 +65,7 @@ const Navbar = () => {
             <div style={{ zIndex: '70' }} className='fixed'>
                 <div id='navbar' className='navbar'>
                     <div className="navbar-brand">
-                        <p style={{ fontSize: '2.7rem', fontWeight: '700' }}>Shawon Mill</p>
+                        <p style={{ fontSize: '2.7rem', fontWeight: '700' }}>WellMall</p>
                         <img onClick={toggleSlider} src={menubar} alt="" />
                     </div>
                     <div className="navbar-search">

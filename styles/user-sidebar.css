@@ -1,0 +1,153 @@
+.user-sidebar{
+    width: 100%;
+    min-height: 90vh;
+    box-shadow: rgb(0 0 0 / 10%) 1px -2px 20px 0px;
+    margin: 0px auto;
+}
+.profile-img{
+  height:170px;
+  width: 230px;
+   margin-left: 15%;
+  object-fit: contain;
+
+}
+.user-sidebar__btn{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.user-sidebar__input{
+  position: absolute;
+  top: 0;
+  top: 23%;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.user-sidebar__img{
+    display: flex;
+    flex-direction: column;
+    padding-top: 7%;
+    position: relative;
+}
+.user-sidebar__img button{
+    width: 30%;
+    margin: 1% auto;
+}
+
+.user-sider__tabs{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 1% auto;
+}
+
+
+/* single tab css */
+
+.tab{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 70%;
+    padding: 7px;
+    cursor: pointer;
+    margin: 3% auto;
+    transition: all .3s ease;
+}
+.tab:hover{
+    background-color: black;
+    color: white;
+}
+.clicked{
+    background-color:#e0fed8;
+    border-left: 3px solid black;
+}
+.tab > div{
+    margin-left: 5%;
+}
+
+/* user-sidebar container _app.js */
+
+
+  .user-sidebar__container::-webkit-scrollbar {
+    width: 13px;
+  }
+  
+  /* Track */
+  .user-sidebar__container::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .user-sidebar__container::-webkit-scrollbar-thumb {
+    background: #6AE23C; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .user-sidebar__container::-webkit-scrollbar-thumb:hover {
+    background: #000000; 
+  }
+
+
+  /* user-info user/info */
+
+  .user-info div label{
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .user-info div p{
+    font-size: 1.7rem;
+  }
+
+
+  /* user-info edit */
+
+  .user-info-edit form label{
+    font-size: 1.7rem;
+    font-weight: 500;
+  }
+  .user-info-edit form input{
+    font-size: 1.5rem;
+  }
+
+
+  /* user address-form  */
+  .address-form form .form-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+  .address-form form .form-wrapper div{
+    width: 43%;
+    margin: 0px 1%;
+  }
+  .address-form form input{
+    font-size: 1.5rem;
+  }
+  .address-form form label{
+    font-size: 1.7rem;
+    font-weight: 500;
+  }
+
+  /* user address-shower[single] */
+
+  .table thead{
+    font-size: 1.9rem;
+    font-weight: 700;
+  }
+  .table td{
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  /* /checkout step progress bar */
+
+  .step-container{
+    margin-top: 3%;
+    min-height: 50vh;
+  }
